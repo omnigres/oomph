@@ -25,7 +25,7 @@ install(
 )
 
 # Tests
-add_executable(oomph_tests tests/tests.cpp tests/overload.cpp tests/variant.cpp)
+add_executable(oomph_tests tests/tests.cpp tests/overload.cpp tests/variant.cpp tests/cstring.cpp)
 target_link_libraries(oomph_tests ${PROJECT_NAME})
 enable_testing()
 add_test(NAME oomph_tests COMMAND oomph_tests)
